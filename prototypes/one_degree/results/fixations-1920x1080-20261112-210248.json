@@ -1,0 +1,232 @@
+{
+ "session": "fixations-1920x1080-20261112-210248",
+ "n_fixations": 15,
+ "camera": {
+  "format": [
+   1920,
+   1080
+  ],
+  "frame_duration_s": [
+   0.03333333333333333,
+   0.03333333333333333
+  ],
+  "center_stage_active": false,
+  "portrait_active": false,
+  "studio_light_active": false,
+  "drops": 0
+ },
+ "ms_per_frame": {
+  "mp_image": 4.4,
+  "mp_video": 3.8,
+  "vision": 31.3,
+  "native": 33.6
+ },
+ "mp_image": {
+  "data_loss": 0.0,
+  "iris_px": 33.3,
+  "raw": {
+   "px_per_deg": [
+    0.452,
+    0.417
+   ],
+   "sd_px": [
+    0.279,
+    0.203
+   ],
+   "sd_deg": [
+    0.73,
+    0.496
+   ],
+   "rms_s2s_deg": [
+    0.216,
+    0.214
+   ],
+   "sd_deg_3frame_mean": [
+    0.74,
+    0.469
+   ],
+   "loo_offset_deg_median": 3.581,
+   "loo_offset_deg_p90": 8.02
+  },
+  "eye": {
+   "px_per_deg": [
+    0.311,
+    0.115
+   ],
+   "sd_px": [
+    0.178,
+    0.116
+   ],
+   "sd_deg": [
+    0.543,
+    1.006
+   ],
+   "rms_s2s_deg": [
+    0.244,
+    0.593
+   ],
+   "sd_deg_3frame_mean": [
+    0.501,
+    0.972
+   ],
+   "loo_offset_deg_median": 4.089,
+   "loo_offset_deg_p90": 7.096
+  }
+ },
+ "mp_video": {
+  "data_loss": 0.0,
+  "iris_px": 34.2,
+  "raw": {
+   "px_per_deg": [
+    0.464,
+    0.398
+   ],
+   "sd_px": [
+    0.209,
+    0.138
+   ],
+   "sd_deg": [
+    0.486,
+    0.368
+   ],
+   "rms_s2s_deg": [
+    0.116,
+    0.065
+   ],
+   "sd_deg_3frame_mean": [
+    0.501,
+    0.377
+   ],
+   "loo_offset_deg_median": 3.34,
+   "loo_offset_deg_p90": 8.582
+  },
+  "eye": {
+   "px_per_deg": [
+    0.311,
+    0.13
+   ],
+   "sd_px": [
+    0.09,
+    0.042
+   ],
+   "sd_deg": [
+    0.398,
+    0.327
+   ],
+   "rms_s2s_deg": [
+    0.089,
+    0.113
+   ],
+   "sd_deg_3frame_mean": [
+    0.358,
+    0.329
+   ],
+   "loo_offset_deg_median": 2.109,
+   "loo_offset_deg_p90": 3.315
+  }
+ },
+ "vision": {
+  "data_loss": 0.0,
+  "iris_px": NaN,
+  "raw": {
+   "px_per_deg": [
+    0.456,
+    0.496
+   ],
+   "sd_px": [
+    0.498,
+    0.416
+   ],
+   "sd_deg": [
+    1.057,
+    0.885
+   ],
+   "rms_s2s_deg": [
+    0.969,
+    1.022
+   ],
+   "sd_deg_3frame_mean": [
+    0.777,
+    0.637
+   ],
+   "loo_offset_deg_median": 3.631,
+   "loo_offset_deg_p90": 7.392
+  },
+  "eye": {
+   "px_per_deg": [
+    0.309,
+    0.175
+   ],
+   "sd_px": [
+    0.227,
+    0.129
+   ],
+   "sd_deg": [
+    0.736,
+    0.767
+   ],
+   "rms_s2s_deg": [
+    0.861,
+    0.906
+   ],
+   "sd_deg_3frame_mean": [
+    0.589,
+    0.607
+   ],
+   "loo_offset_deg_median": 1.935,
+   "loo_offset_deg_p90": 3.611
+  }
+ },
+ "native": {
+  "data_loss": 0.0,
+  "iris_px": 33.3,
+  "raw": {
+   "px_per_deg": [
+    0.513,
+    0.514
+   ],
+   "sd_px": [
+    0.291,
+    0.172
+   ],
+   "sd_deg": [
+    0.54,
+    0.345
+   ],
+   "rms_s2s_deg": [
+    0.183,
+    0.136
+   ],
+   "sd_deg_3frame_mean": [
+    0.545,
+    0.345
+   ],
+   "loo_offset_deg_median": 2.72,
+   "loo_offset_deg_p90": 7.059
+  },
+  "eye": {
+   "px_per_deg": [
+    0.373,
+    0.217
+   ],
+   "sd_px": [
+    0.195,
+    0.139
+   ],
+   "sd_deg": [
+    0.575,
+    0.651
+   ],
+   "rms_s2s_deg": [
+    0.293,
+    0.413
+   ],
+   "sd_deg_3frame_mean": [
+    0.55,
+    0.622
+   ],
+   "loo_offset_deg_median": 2.677,
+   "loo_offset_deg_p90": 3.283
+  }
+ }
+}
