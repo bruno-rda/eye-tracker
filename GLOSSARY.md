@@ -40,6 +40,10 @@ _Avoid_: Target, goal, threshold
 The part that turns camera frames into a point of gaze.
 _Avoid_: Tracker, model, predictor
 
+**Method**:
+The idea an estimator implements.
+_Avoid_: Approach, algorithm, technique
+
 **Recorded session**:
 One sitting captured whole, every camera frame and on-screen event on one clock, so it can be replayed.
 _Avoid_: Recording, dataset, run
@@ -71,3 +75,7 @@ _Avoid_: Training session, train split
 **Held-out session**:
 A recorded session designated before recording to score estimators, never to tune them.
 _Avoid_: Test session, validation set, test split
+
+**Ceiling**:
+An estimator's accuracy when calibrated on the fixation targets it is scored on.
+_Avoid_: Oracle, upper bound
