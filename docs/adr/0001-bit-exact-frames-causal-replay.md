@@ -1,0 +1,3 @@
+# Recorded sessions keep bit-exact frames and are replayed causally
+
+One degree of eye rotation moves the iris centre about 0.5 px, so codec artefacts would be an unmeasured confound: frames are stored lossless, which measured 0.26 to 0.92 GB/min against 0.11 for a good lossy codec. Estimators are scored by replay, frames and cursor events in recorded order with fixation target positions known only from the calibration pool, not by a split over frames: consecutive frames are near duplicates, and live use is causal. Held-out sessions are designated before recording, so none is chosen for having scored well.
