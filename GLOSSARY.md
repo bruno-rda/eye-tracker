@@ -32,6 +32,22 @@ _Avoid_: Target, stimulus, dot
 An on-screen element the cursor must land on.
 _Avoid_: Target, button
 
+**Landing**:
+The cursor being inside the hit target at the key press.
+_Avoid_: Hit, selection, click
+
+**Jump**:
+The cursor's move to a newly settled point of gaze.
+_Avoid_: Warp, teleport, snap
+
+**Hold radius**:
+The distance from the cursor within which the point of gaze causes no jump.
+_Avoid_: Dead zone, threshold
+
+**Refinement**:
+Steering the cursor by head movement from where a jump left it onto the hit target.
+_Avoid_: Correction, nudge, fine positioning
+
 **Requirement**:
 A number that defines success for accuracy, precision, latency, data loss or landing on hit targets.
 _Avoid_: Target, goal, threshold
@@ -63,6 +79,10 @@ _Avoid_: Calibration set, training set
 **Test block**:
 A block whose fixation targets score an estimator and are never shown to it.
 _Avoid_: Validation set, test set
+
+**Head block**:
+A block whose fixation targets are each held while the head moves, showing how far the estimate strays.
+_Avoid_: Movement block, stability block
 
 **Retained window**:
 The frames of one fixation that are scored, the same for every estimator.
