@@ -36,6 +36,10 @@ _Avoid_: Target, button
 The cursor being inside the hit target at the key press.
 _Avoid_: Hit, selection, click
 
+**Attempt**:
+One hit target, from appearing to its key press.
+_Avoid_: Trial, round
+
 **Jump**:
 The cursor's move to a newly settled point of gaze.
 _Avoid_: Warp, teleport, snap
@@ -72,6 +76,10 @@ _Avoid_: Approach, algorithm, technique
 One sitting captured whole, every camera frame and on-screen event on one clock, so it can be replayed.
 _Avoid_: Recording, dataset, run
 
+**Live session**:
+One sitting in which gaze and head movement drive the cursor.
+_Avoid_: Live run, online session
+
 **Replay**:
 Feeding a recorded session to an estimator in recorded order, as the live camera would.
 _Avoid_: Playback, offline run, simulation
@@ -91,6 +99,10 @@ _Avoid_: Validation set, test set
 **Head block**:
 A block whose fixation targets are each held while the head moves, showing how far the estimate strays.
 _Avoid_: Movement block, stability block
+
+**Task block**:
+A block of attempts in a live session.
+_Avoid_: Landing block, pointing block
 
 **Retained window**:
 The frames of one fixation that are scored, the same for every estimator.
