@@ -52,9 +52,17 @@ _Avoid_: Correction, nudge, fine positioning
 A number that defines success for accuracy, precision, latency, data loss or landing on hit targets.
 _Avoid_: Target, goal, threshold
 
+**Perception**:
+The part that turns a camera frame into face and eye landmarks.
+_Avoid_: Detection, tracking, front end
+
 **Estimator**:
 The part that turns camera frames into a point of gaze.
 _Avoid_: Tracker, model, predictor
+
+**Controller**:
+The part that turns points of gaze and head movement into cursor positions.
+_Avoid_: Cursor logic, pointer, policy
 
 **Method**:
 The idea an estimator implements.
