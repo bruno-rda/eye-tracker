@@ -89,12 +89,16 @@ A stretch of a recorded session with one purpose.
 _Avoid_: Phase, segment, trial
 
 **Calibration pool**:
-The block whose fixation targets an estimator may be told the positions of.
+The block whose fixation targets a replay may tell an estimator: the calibration's directly, the rest through enrolment from other sessions.
 _Avoid_: Calibration set, training set
 
 **Test block**:
-A block whose fixation targets score an estimator and are never shown to it.
+A block whose fixation targets score an estimator and are withheld from it while that session is replayed.
 _Avoid_: Validation set, test set
+
+**Held fixation**:
+A fixation kept on one fixation target while the head moves.
+_Avoid_: Head fixation, moving fixation
 
 **Head block**:
 A block whose fixation targets are each held while the head moves, showing how far the estimate strays.
@@ -123,3 +127,15 @@ _Avoid_: Test session, validation set, test split
 **Ceiling**:
 An estimator's accuracy when calibrated on the fixation targets it is scored on.
 _Avoid_: Oracle, upper bound
+
+**Calibration profile**:
+Everything measured or fitted about one user on one machine that outlasts a session.
+_Avoid_: User model, settings, config
+
+**Enrolment**:
+Fitting the personal part of a calibration profile from recorded sessions.
+_Avoid_: Training, setup, onboarding
+
+**Calibration**:
+The fixation targets shown at the start of a session and the fit an estimator makes from them.
+_Avoid_: Recalibration, setup
