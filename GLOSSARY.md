@@ -108,6 +108,10 @@ _Avoid_: Landing block, pointing block
 The frames of one fixation that are scored, the same for every estimator.
 _Avoid_: Sample window, fixation window
 
+**Referee**:
+The fixed judge that flags blink and face-lost frames, the same for every estimator.
+_Avoid_: Blink detector, validity filter
+
 **Development session**:
 A recorded session estimators may be tuned on.
 _Avoid_: Training session, train split
