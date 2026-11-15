@@ -1,0 +1,62 @@
+cost per fixation, s (onset to end of window)
+  pool static    [2.73 0.5 ]
+  session head   acquire 1.76 + 4 s hold = 5.76
+  re-record head acquire 3.54 + 4 s hold = 7.54
+  head block cells, session: [(0, 1), (4, 1), (2, 0), (3, 0), (2, 1), (0, 0), (1, 0), (3, 1), (4, 0), (1, 1)]
+  head block cells, re-record: [(4, 1), (2, 0), (3, 1), (4, 0), (1, 0), (1, 1), (0, 0), (2, 1), (0, 1), (3, 0)]
+
+profile slopes (re-record, 10 x 4 s): eye_x/yaw -0.332, eye_y/pitch -0.011
+
+1. static fixations needed, slopes from the profile. median deg [early, late]; random subsets: median (p10-p90)
+  5: corners + centre      [3.38 3.1 ]
+  9: outer 3x3             [1.91 2.59]
+  10: budget (pilot)       [1.83 2.46]
+  25: whole pool           [1.84 2.59]
+  random 4   early 3.66 (2.48-5.37)  late 3.93 (2.72-6.19)
+  random 5   early 3.31 (2.39-4.8)  late 3.53 (2.66-5.28)
+  random 6   early 2.96 (2.15-3.94)  late 3.17 (2.52-4.36)
+  random 7   early 2.68 (2.06-3.65)  late 2.96 (2.51-3.87)
+  random 8   early 2.51 (1.97-3.4)  late 2.82 (2.38-3.66)
+  random 9   early 2.4 (1.97-3.07)  late 2.75 (2.42-3.21)
+  random 10  early 2.28 (1.87-2.84)  late 2.71 (2.42-3.25)
+
+2. slopes from k head-held fixations held dur s (re-record); map from 10 static. median over subsets (p10-p90)
+  dur 1 s k 1  n=10  early 3.27 (2.45-4.27)  late 3.29 (2.77-4.29)  eye_x/yaw -0.188 sd 0.280
+  dur 1 s k 2  n=45  early 2.67 (1.87-4.35)  late 2.94 (2.64-3.6)  eye_x/yaw -0.224 sd 0.109
+  dur 1 s k 3  n=120 early 2.51 (1.82-3.85)  late 2.86 (2.56-3.37)  eye_x/yaw -0.226 sd 0.077
+  dur 1 s k 4  n=120 early 2.44 (1.83-3.52)  late 2.75 (2.6-3.14)  eye_x/yaw -0.229 sd 0.059
+  dur 1 s k 6  n=120 early 2.37 (1.94-3.06)  late 2.7 (2.52-2.94)  eye_x/yaw -0.227 sd 0.036
+  dur 1 s k 10 n=1   early 2.22 (2.22-2.22)  late 2.54 (2.54-2.54)  eye_x/yaw -0.229 sd 0.000
+  dur 2 s k 1  n=10  early 2.37 (1.85-2.69)  late 2.85 (2.55-3.19)  eye_x/yaw -0.316 sd 0.075
+  dur 2 s k 2  n=45  early 2.13 (1.71-2.62)  late 2.72 (2.53-2.92)  eye_x/yaw -0.326 sd 0.052
+  dur 2 s k 3  n=120 early 2.08 (1.73-2.52)  late 2.66 (2.5-2.85)  eye_x/yaw -0.332 sd 0.037
+  dur 2 s k 4  n=120 early 2.09 (1.76-2.46)  late 2.65 (2.5-2.82)  eye_x/yaw -0.332 sd 0.029
+  dur 2 s k 6  n=120 early 2.11 (1.82-2.34)  late 2.63 (2.51-2.77)  eye_x/yaw -0.332 sd 0.019
+  dur 2 s k 10 n=1   early 2.14 (2.14-2.14)  late 2.64 (2.64-2.64)  eye_x/yaw -0.336 sd 0.000
+  dur 4 s k 1  n=10  early 1.97 (1.78-2.47)  late 2.54 (2.47-3.07)  eye_x/yaw -0.339 sd 0.082
+  dur 4 s k 2  n=45  early 1.96 (1.8-2.21)  late 2.61 (2.39-2.82)  eye_x/yaw -0.335 sd 0.057
+  dur 4 s k 3  n=120 early 1.91 (1.74-2.09)  late 2.55 (2.36-2.79)  eye_x/yaw -0.328 sd 0.044
+  dur 4 s k 4  n=120 early 1.89 (1.78-2.04)  late 2.52 (2.36-2.68)  eye_x/yaw -0.329 sd 0.037
+  dur 4 s k 6  n=120 early 1.87 (1.8-1.96)  late 2.51 (2.41-2.6)  eye_x/yaw -0.328 sd 0.023
+  dur 4 s k 10 n=1   early 1.83 (1.83-1.83)  late 2.46 (2.46-2.46)  eye_x/yaw -0.332 sd 0.000
+  no compensation: [1.83 3.52]
+
+3. map AND slopes from k of the session's head-block fixations (first dur s after the press), nothing static
+  dur 2 s k 4  (~15 s) n=75  early 4.86 (3.38-6.89)  late 4.06 (2.71-5.85)
+  dur 2 s k 5  (~19 s) n=120 early 4.44 (3.08-6.1)  late 3.49 (2.5-5.63)
+  dur 2 s k 6  (~23 s) n=120 early 4.02 (2.96-5.19)  late 2.87 (2.19-4.43)
+  dur 2 s k 7  (~26 s) n=120 early 3.66 (2.88-5.0)  late 2.52 (2.1-3.81)
+  dur 2 s k 10 (~38 s) n=1   early 3.14 (3.14-3.14)  late 2.11 (2.11-2.11)
+  dur 4 s k 4  (~23 s) n=120 early 4.15 (3.26-6.2)  late 3.41 (2.3-5.87)
+  dur 4 s k 5  (~29 s) n=120 early 3.97 (3.05-5.04)  late 3.03 (2.16-4.63)
+  dur 4 s k 6  (~35 s) n=120 early 3.6 (2.77-4.37)  late 2.67 (2.01-3.85)
+  dur 4 s k 7  (~40 s) n=120 early 3.47 (2.83-4.09)  late 2.6 (2.05-3.22)
+  dur 4 s k 10 (~58 s) n=1   early 3.21 (3.21-3.21)  late 2.53 (2.53-2.53)
+
+4. mixed within 30 s: n static (outer first) + k head-held from the session's head block, 4 s and 2 s holds
+  hold 4 s: 8 static + 1 head-held (~28 s)  early 1.95 (1.76-2.42)  late 2.31 (1.98-2.66)
+  hold 4 s: 6 static + 2 head-held (~28 s)  early 1.98 (1.72-2.28)  late 2.77 (2.37-3.15)
+  hold 4 s: 4 static + 3 head-held (~28 s)  early 3.43 (3.11-3.73)  late 3.14 (2.75-3.77)
+  hold 2 s: 9 static + 1 head-held (~28 s)  early 2.49 (1.99-3.58)  late 2.76 (2.39-3.18)
+  hold 2 s: 8 static + 2 head-held (~29 s)  early 2.46 (1.83-3.37)  late 2.5 (2.15-2.98)
+  hold 2 s: 6 static + 3 head-held (~28 s)  early 2.33 (1.92-2.81)  late 2.85 (2.53-3.18)
