@@ -20,8 +20,9 @@ is the camera, deliver to arrival is AVFoundation and Python. No frames are kept
 
 Found (2026-11-16, results/): the delay is the camera's. It has two states, read per frame from the
 driver's undocumented metadata. Slow, about 17 ms later, is `MachineLearningVideoNoiseReductionApplied`
-(with `TemporalNoiseReductionBand0Strength` 0 and a second exposure attached): the light is low enough
-for the gain to sit at its 8x limit at 16.7 ms exposure. No format or frame rate leaves it.
+together with a second exposure attached: the light is low enough for the gain to sit at its 8x limit
+at 16.7 ms exposure. Dimmer, the flag stays but the second exposure goes, and the delay is fast again.
+No format or frame rate leaves the slow state.
 """
 
 import json
