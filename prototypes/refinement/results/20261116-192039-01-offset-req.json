@@ -1,0 +1,1649 @@
+{
+ "session": "20261116-192039",
+ "kind": "task",
+ "distance_cm": 51.0,
+ "pt_per_deg": 44.51,
+ "screen_pt": [
+  1512.0,
+  982.0
+ ],
+ "window": [
+  0,
+  37,
+  1512,
+  945
+ ],
+ "camera": {
+  "format": [
+   1920,
+   1080
+  ],
+  "frame_duration_s": [
+   0.03333333333333333,
+   0.03333333333333333
+  ],
+  "center_stage_active": false,
+  "portrait_active": false,
+  "studio_light_active": false,
+  "drops": 0
+ },
+ "params": {
+  "feature": "rigid",
+  "g_lo": 1.5,
+  "g_hi": 6.0,
+  "v_lo": 8.0,
+  "v_hi": 60.0,
+  "y_scale": 1.0,
+  "mincut": 3.125,
+  "beta": 0.1,
+  "rest": false,
+  "rest_min_ms": 300.0,
+  "rest_speed": 12.0,
+  "rest_frames": 3,
+  "jump_ms": 400.0,
+  "offset": "req"
+ },
+ "summary": {
+  "attempts": 45,
+  "landed_within_2s": {
+   "n": 45,
+   "landed": 27,
+   "rate": 0.6,
+   "ci95": [
+    0.455,
+    0.73
+   ]
+  },
+  "landed_any_time": {
+   "n": 45,
+   "landed": 36,
+   "rate": 0.8,
+   "ci95": [
+    0.662,
+    0.891
+   ]
+  },
+  "no_press_in_5s": 0,
+  "pressed_before_jump": 0,
+  "trackpad": 0,
+  "press_s_p50_p90": [
+   1.74,
+   2.33
+  ],
+  "refine_s_p50_p90": [
+   1.33,
+   1.92
+  ],
+  "rest_s_p50_p90": [
+   null,
+   null
+  ],
+  "pressed_before_rest": 45,
+  "landed_by_press_s": {
+   "1": 0.0,
+   "1.25": 0.067,
+   "1.5": 0.244,
+   "1.75": 0.444,
+   "2": 0.6,
+   "2.5": 0.756,
+   "3": 0.8,
+   "5": 0.8
+  },
+  "landed_by_refine_s": {
+   "0.6": 0.0,
+   "0.8": 0.067,
+   "1": 0.133,
+   "1.2": 0.267,
+   "1.4": 0.489,
+   "1.6": 0.6,
+   "1.8": 0.644,
+   "2": 0.756
+  },
+  "phases_s_p50": {
+   "jump_s": 0.41,
+   "moves_s": 0.82,
+   "first_in_s": 1.36,
+   "last_in_s": 1.52,
+   "press_s": 1.74
+  },
+  "entered_more_than_once": 12,
+  "by_offset_deg": {
+   "0-0.75": {
+    "n": 5,
+    "landed": 3,
+    "rate": 0.6,
+    "ci95": [
+     0.231,
+     0.882
+    ],
+    "press_s_p50": 1.31
+   },
+   "0.75-1.25": {
+    "n": 11,
+    "landed": 7,
+    "rate": 0.636,
+    "ci95": [
+     0.354,
+     0.848
+    ],
+    "press_s_p50": 1.61
+   },
+   "1.25-2": {
+    "n": 11,
+    "landed": 7,
+    "rate": 0.636,
+    "ci95": [
+     0.354,
+     0.848
+    ],
+    "press_s_p50": 1.79
+   },
+   "2-3": {
+    "n": 12,
+    "landed": 8,
+    "rate": 0.667,
+    "ci95": [
+     0.391,
+     0.862
+    ],
+    "press_s_p50": 1.79
+   },
+   "3-99": {
+    "n": 6,
+    "landed": 2,
+    "rate": 0.333,
+    "ci95": [
+     0.097,
+     0.7
+    ],
+    "press_s_p50": 2.11
+   }
+  },
+  "by_distance_from_previous_pt": {
+   "0-300": {
+    "n": 8,
+    "landed": 4,
+    "rate": 0.5,
+    "ci95": [
+     0.215,
+     0.785
+    ],
+    "press_s_p50": 1.65
+   },
+   "300-700": {
+    "n": 20,
+    "landed": 12,
+    "rate": 0.6,
+    "ci95": [
+     0.387,
+     0.781
+    ],
+    "press_s_p50": 1.72
+   },
+   "700-9999": {
+    "n": 17,
+    "landed": 11,
+    "rate": 0.647,
+    "ci95": [
+     0.413,
+     0.827
+    ],
+    "press_s_p50": 1.79
+   }
+  },
+  "miss_beyond_edge_pt_p50_p90": [
+   3.0,
+   9.6
+  ],
+  "cursor_sd_before_press_pt_p50_p90": [
+   5.13,
+   13.08
+  ],
+  "frame_to_cursor_ms_p50_p95": [
+   64.45,
+   71.88
+  ]
+ },
+ "attempts": [
+  {
+   "i": 0,
+   "cell": [
+    5,
+    0
+   ],
+   "x": 858,
+   "y": 198,
+   "offset_deg": 1.634,
+   "jump_to": [
+    877.6,
+    127.9
+   ],
+   "from_prev_pt": 261.0,
+   "t_on": 596760.722409833,
+   "jump_s": 0.4067,
+   "press_s": 1.6645,
+   "refine_s": 1.2578,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    856.0,
+    189.0
+   ],
+   "miss_pt": -3.0,
+   "steady_pt": 17.35,
+   "moves_s": 0.81,
+   "first_in_s": 0.978,
+   "last_in_s": 1.523,
+   "entries": 2
+  },
+  {
+   "i": 1,
+   "cell": [
+    3,
+    2
+   ],
+   "x": 659,
+   "y": 421,
+   "offset_deg": 1.129,
+   "jump_to": [
+    700.5,
+    449.4
+   ],
+   "from_prev_pt": 304.4,
+   "t_on": 596764.350806291,
+   "jump_s": 0.4012,
+   "press_s": 1.199,
+   "refine_s": 0.7979,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    654.0,
+    432.0
+   ],
+   "miss_pt": -1.0,
+   "steady_pt": 13.13,
+   "moves_s": 0.557,
+   "first_in_s": 1.146,
+   "last_in_s": 1.146,
+   "entries": 1
+  },
+  {
+   "i": 2,
+   "cell": [
+    1,
+    0
+   ],
+   "x": 209,
+   "y": 126,
+   "offset_deg": 1.931,
+   "jump_to": [
+    165.2,
+    52.0
+   ],
+   "from_prev_pt": 540.1,
+   "t_on": 596766.595945208,
+   "jump_s": 0.4015,
+   "press_s": 1.8863,
+   "refine_s": 1.4848,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    177.0,
+    146.0
+   ],
+   "miss_pt": 20.0,
+   "steady_pt": 21.01,
+   "moves_s": 0.469,
+   "first_in_s": 1.668,
+   "last_in_s": null,
+   "entries": 1
+  },
+  {
+   "i": 3,
+   "cell": [
+    2,
+    0
+   ],
+   "x": 344,
+   "y": 58,
+   "offset_deg": 1.173,
+   "jump_to": [
+    293.7,
+    44.0
+   ],
+   "from_prev_pt": 188.8,
+   "t_on": 596769.814157375,
+   "jump_s": 0.4026,
+   "press_s": 1.607,
+   "refine_s": 1.2044,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    361.0,
+    56.0
+   ],
+   "miss_pt": 5.0,
+   "steady_pt": 14.46,
+   "moves_s": 0.821,
+   "first_in_s": 1.356,
+   "last_in_s": null,
+   "entries": 1
+  },
+  {
+   "i": 4,
+   "cell": [
+    0,
+    4
+   ],
+   "x": 81,
+   "y": 954,
+   "offset_deg": 1.175,
+   "jump_to": [
+    131.8,
+    966.3
+   ],
+   "from_prev_pt": 940.6,
+   "t_on": 596772.476020083,
+   "jump_s": 0.404,
+   "press_s": 2.6949,
+   "refine_s": 2.2908,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    73.0,
+    951.0
+   ],
+   "miss_pt": -4.0,
+   "steady_pt": 5.13,
+   "moves_s": 0.455,
+   "first_in_s": 2.362,
+   "last_in_s": 2.362,
+   "entries": 1
+  },
+  {
+   "i": 5,
+   "cell": [
+    4,
+    3
+   ],
+   "x": 689,
+   "y": 657,
+   "offset_deg": 1.188,
+   "jump_to": [
+    735.6,
+    681.9
+   ],
+   "from_prev_pt": 682.6,
+   "t_on": 596776.562762291,
+   "jump_s": 0.4015,
+   "press_s": 1.7377,
+   "refine_s": 1.3362,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    696.0,
+    669.0
+   ],
+   "miss_pt": 0.0,
+   "steady_pt": 3.72,
+   "moves_s": 0.911,
+   "first_in_s": null,
+   "last_in_s": null,
+   "entries": 0
+  },
+  {
+   "i": 6,
+   "cell": [
+    5,
+    1
+   ],
+   "x": 959,
+   "y": 277,
+   "offset_deg": 0.639,
+   "jump_to": [
+    971.2,
+    302.7
+   ],
+   "from_prev_pt": 472.1,
+   "t_on": 596779.584881541,
+   "jump_s": 0.4016,
+   "press_s": 1.1996,
+   "refine_s": 0.798,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    965.0,
+    270.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 8.48,
+   "moves_s": 0.822,
+   "first_in_s": 0.948,
+   "last_in_s": 0.948,
+   "entries": 1
+  },
+  {
+   "i": 7,
+   "cell": [
+    5,
+    4
+   ],
+   "x": 852,
+   "y": 882,
+   "offset_deg": 0.591,
+   "jump_to": [
+    868.6,
+    902.4
+   ],
+   "from_prev_pt": 622.3,
+   "t_on": 596782.213510708,
+   "jump_s": 0.4077,
+   "press_s": 1.2038,
+   "refine_s": 0.7961,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    850.0,
+    884.0
+   ],
+   "miss_pt": -10.0,
+   "steady_pt": 8.84,
+   "moves_s": 0.852,
+   "first_in_s": 1.062,
+   "last_in_s": 1.062,
+   "entries": 1
+  },
+  {
+   "i": 8,
+   "cell": [
+    5,
+    2
+   ],
+   "x": 841,
+   "y": 554,
+   "offset_deg": 2.121,
+   "jump_to": [
+    809.4,
+    465.0
+   ],
+   "from_prev_pt": 330.1,
+   "t_on": 596785.137719791,
+   "jump_s": 0.4009,
+   "press_s": 1.6868,
+   "refine_s": 1.2859,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    848.0,
+    558.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 6.87,
+   "moves_s": 0.633,
+   "first_in_s": 1.539,
+   "last_in_s": 1.539,
+   "entries": 1
+  },
+  {
+   "i": 9,
+   "cell": [
+    8,
+    2
+   ],
+   "x": 1359,
+   "y": 433,
+   "offset_deg": 2.218,
+   "jump_to": [
+    1260.6,
+    441.3
+   ],
+   "from_prev_pt": 526.1,
+   "t_on": 596788.524187,
+   "jump_s": 0.4088,
+   "press_s": 1.4962,
+   "refine_s": 1.0874,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1364.0,
+    422.0
+   ],
+   "miss_pt": -1.0,
+   "steady_pt": 1.66,
+   "moves_s": 0.913,
+   "first_in_s": 1.113,
+   "last_in_s": 1.113,
+   "entries": 1
+  },
+  {
+   "i": 10,
+   "cell": [
+    8,
+    1
+   ],
+   "x": 1375,
+   "y": 395,
+   "offset_deg": 2.107,
+   "jump_to": [
+    1310.8,
+    326.6
+   ],
+   "from_prev_pt": 29.2,
+   "t_on": 596791.497817958,
+   "jump_s": 0.4035,
+   "press_s": 1.6902,
+   "refine_s": 1.2867,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    1389.0,
+    385.0
+   ],
+   "miss_pt": 2.0,
+   "steady_pt": 11.76,
+   "moves_s": 0.673,
+   "first_in_s": 1.511,
+   "last_in_s": null,
+   "entries": 1
+  },
+  {
+   "i": 11,
+   "cell": [
+    3,
+    1
+   ],
+   "x": 637,
+   "y": 363,
+   "offset_deg": 0.965,
+   "jump_to": [
+    651.4,
+    322.5
+   ],
+   "from_prev_pt": 752.3,
+   "t_on": 596794.316353,
+   "jump_s": 0.4106,
+   "press_s": 1.3528,
+   "refine_s": 0.9422,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    634.0,
+    374.0
+   ],
+   "miss_pt": -1.0,
+   "steady_pt": 1.38,
+   "moves_s": 0.817,
+   "first_in_s": 0.928,
+   "last_in_s": 0.928,
+   "entries": 1
+  },
+  {
+   "i": 12,
+   "cell": [
+    6,
+    0
+   ],
+   "x": 1082,
+   "y": 60,
+   "offset_deg": 1.389,
+   "jump_to": [
+    1021.0,
+    49.9
+   ],
+   "from_prev_pt": 547.1,
+   "t_on": 596797.3411115,
+   "jump_s": 0.403,
+   "press_s": 2.3574,
+   "refine_s": 1.9543,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1079.0,
+    51.0
+   ],
+   "miss_pt": -3.0,
+   "steady_pt": 4.57,
+   "moves_s": 0.905,
+   "first_in_s": 1.173,
+   "last_in_s": 2.038,
+   "entries": 2
+  },
+  {
+   "i": 13,
+   "cell": [
+    0,
+    1
+   ],
+   "x": 93,
+   "y": 251,
+   "offset_deg": 0.946,
+   "jump_to": [
+    71.9,
+    214.6
+   ],
+   "from_prev_pt": 1006.1,
+   "t_on": 596800.791400916,
+   "jump_s": 0.4022,
+   "press_s": 1.7792,
+   "refine_s": 1.377,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    92.0,
+    245.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 5.23,
+   "moves_s": 0.917,
+   "first_in_s": 1.48,
+   "last_in_s": 1.48,
+   "entries": 1
+  },
+  {
+   "i": 14,
+   "cell": [
+    6,
+    1
+   ],
+   "x": 1029,
+   "y": 279,
+   "offset_deg": 4.146,
+   "jump_to": [
+    1128.6,
+    123.6
+   ],
+   "from_prev_pt": 937.6,
+   "t_on": 596803.644345583,
+   "jump_s": 0.4109,
+   "press_s": 2.2805,
+   "refine_s": 1.8696,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1031.0,
+    276.0
+   ],
+   "miss_pt": -9.0,
+   "steady_pt": 3.38,
+   "moves_s": 0.83,
+   "first_in_s": 1.928,
+   "last_in_s": 1.928,
+   "entries": 1
+  },
+  {
+   "i": 15,
+   "cell": [
+    2,
+    3
+   ],
+   "x": 368,
+   "y": 642,
+   "offset_deg": 0.688,
+   "jump_to": [
+    340.0,
+    654.5
+   ],
+   "from_prev_pt": 757.3,
+   "t_on": 596806.956352541,
+   "jump_s": 0.4105,
+   "press_s": 1.8149,
+   "refine_s": 1.4044,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    349.0,
+    633.0
+   ],
+   "miss_pt": 7.0,
+   "steady_pt": 13.01,
+   "moves_s": 0.424,
+   "first_in_s": 1.583,
+   "last_in_s": null,
+   "entries": 1
+  },
+  {
+   "i": 16,
+   "cell": [
+    8,
+    4
+   ],
+   "x": 1367,
+   "y": 819,
+   "offset_deg": 2.273,
+   "jump_to": [
+    1448.7,
+    878.7
+   ],
+   "from_prev_pt": 1034.9,
+   "t_on": 596810.120034833,
+   "jump_s": 0.4021,
+   "press_s": 1.8469,
+   "refine_s": 1.4447,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1373.0,
+    819.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 1.6,
+   "moves_s": 0.698,
+   "first_in_s": 1.526,
+   "last_in_s": 1.526,
+   "entries": 1
+  },
+  {
+   "i": 17,
+   "cell": [
+    4,
+    0
+   ],
+   "x": 736,
+   "y": 153,
+   "offset_deg": 2.144,
+   "jump_to": [
+    788.6,
+    73.3
+   ],
+   "from_prev_pt": 921.6,
+   "t_on": 596813.075463666,
+   "jump_s": 0.4111,
+   "press_s": 2.3518,
+   "refine_s": 1.9407,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    731.0,
+    156.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 6.15,
+   "moves_s": 0.859,
+   "first_in_s": 2.161,
+   "last_in_s": 2.161,
+   "entries": 1
+  },
+  {
+   "i": 18,
+   "cell": [
+    4,
+    2
+   ],
+   "x": 762,
+   "y": 417,
+   "offset_deg": 2.981,
+   "jump_to": [
+    741.0,
+    548.0
+   ],
+   "from_prev_pt": 262.8,
+   "t_on": 596817.355087333,
+   "jump_s": 0.4069,
+   "press_s": 1.4905,
+   "refine_s": 1.0836,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    757.0,
+    409.0
+   ],
+   "miss_pt": -4.0,
+   "steady_pt": 12.9,
+   "moves_s": 0.556,
+   "first_in_s": 1.25,
+   "last_in_s": 1.25,
+   "entries": 1
+  },
+  {
+   "i": 19,
+   "cell": [
+    3,
+    3
+   ],
+   "x": 641,
+   "y": 773,
+   "offset_deg": 2.398,
+   "jump_to": [
+    708.8,
+    690.6
+   ],
+   "from_prev_pt": 382.0,
+   "t_on": 596820.058182666,
+   "jump_s": 0.4068,
+   "press_s": 1.862,
+   "refine_s": 1.4551,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    642.0,
+    757.0
+   ],
+   "miss_pt": 4.0,
+   "steady_pt": 18.84,
+   "moves_s": 0.546,
+   "first_in_s": 1.259,
+   "last_in_s": null,
+   "entries": 2
+  },
+  {
+   "i": 20,
+   "cell": [
+    0,
+    3
+   ],
+   "x": 125,
+   "y": 673,
+   "offset_deg": 1.552,
+   "jump_to": [
+    141.8,
+    740.0
+   ],
+   "from_prev_pt": 523.8,
+   "t_on": 596822.98898575,
+   "jump_s": 0.4041,
+   "press_s": 1.9157,
+   "refine_s": 1.5115,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    118.0,
+    672.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 4.34,
+   "moves_s": 0.882,
+   "first_in_s": 1.423,
+   "last_in_s": 1.823,
+   "entries": 2
+  },
+  {
+   "i": 21,
+   "cell": [
+    7,
+    1
+   ],
+   "x": 1322,
+   "y": 395,
+   "offset_deg": 0.761,
+   "jump_to": [
+    1349.3,
+    415.1
+   ],
+   "from_prev_pt": 1235.5,
+   "t_on": 596826.763049083,
+   "jump_s": 0.4101,
+   "press_s": 1.4564,
+   "refine_s": 1.0462,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1328.0,
+    388.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 1.95,
+   "moves_s": 0.88,
+   "first_in_s": 1.152,
+   "last_in_s": 1.152,
+   "entries": 1
+  },
+  {
+   "i": 22,
+   "cell": [
+    3,
+    4
+   ],
+   "x": 666,
+   "y": 923,
+   "offset_deg": 1.728,
+   "jump_to": [
+    742.6,
+    916.5
+   ],
+   "from_prev_pt": 851.2,
+   "t_on": 596829.439189708,
+   "jump_s": 0.4075,
+   "press_s": 1.6894,
+   "refine_s": 1.282,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    673.0,
+    920.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 10.9,
+   "moves_s": 0.476,
+   "first_in_s": 0.965,
+   "last_in_s": 1.476,
+   "entries": 2
+  },
+  {
+   "i": 23,
+   "cell": [
+    4,
+    4
+   ],
+   "x": 678,
+   "y": 872,
+   "offset_deg": 1.609,
+   "jump_to": [
+    747.9,
+    887.8
+   ],
+   "from_prev_pt": 48.3,
+   "t_on": 596833.137830666,
+   "jump_s": 0.4067,
+   "press_s": 1.4105,
+   "refine_s": 1.0038,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    687.0,
+    871.0
+   ],
+   "miss_pt": -3.0,
+   "steady_pt": 1.77,
+   "moves_s": 0.877,
+   "first_in_s": 1.173,
+   "last_in_s": 1.173,
+   "entries": 1
+  },
+  {
+   "i": 24,
+   "cell": [
+    0,
+    2
+   ],
+   "x": 106,
+   "y": 505,
+   "offset_deg": 3.146,
+   "jump_to": [
+    121.3,
+    644.2
+   ],
+   "from_prev_pt": 686.7,
+   "t_on": 596836.093102708,
+   "jump_s": 0.4036,
+   "press_s": 2.1238,
+   "refine_s": 1.7202,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    100.0,
+    519.0
+   ],
+   "miss_pt": 2.0,
+   "steady_pt": 1.46,
+   "moves_s": 0.821,
+   "first_in_s": null,
+   "last_in_s": null,
+   "entries": 0
+  },
+  {
+   "i": 25,
+   "cell": [
+    7,
+    3
+   ],
+   "x": 1292,
+   "y": 656,
+   "offset_deg": 2.065,
+   "jump_to": [
+    1200.1,
+    656.1
+   ],
+   "from_prev_pt": 1199.8,
+   "t_on": 596839.389228041,
+   "jump_s": 0.4097,
+   "press_s": 1.9076,
+   "refine_s": 1.4978,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1287.0,
+    655.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 4.57,
+   "moves_s": 0.887,
+   "first_in_s": 1.691,
+   "last_in_s": 1.691,
+   "entries": 1
+  },
+  {
+   "i": 26,
+   "cell": [
+    2,
+    2
+   ],
+   "x": 351,
+   "y": 484,
+   "offset_deg": 2.845,
+   "jump_to": [
+    336.8,
+    609.8
+   ],
+   "from_prev_pt": 951.5,
+   "t_on": 596842.516519458,
+   "jump_s": 0.4084,
+   "press_s": 1.6842,
+   "refine_s": 1.2757,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    356.0,
+    489.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 4.09,
+   "moves_s": 0.525,
+   "first_in_s": 1.363,
+   "last_in_s": 1.363,
+   "entries": 1
+  },
+  {
+   "i": 27,
+   "cell": [
+    0,
+    0
+   ],
+   "x": 52,
+   "y": 215,
+   "offset_deg": 0.7,
+   "jump_to": [
+    53.7,
+    183.9
+   ],
+   "from_prev_pt": 409.3,
+   "t_on": 596846.012097083,
+   "jump_s": 0.4103,
+   "press_s": 2.304,
+   "refine_s": 1.8936,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    44.0,
+    225.0
+   ],
+   "miss_pt": -2.0,
+   "steady_pt": 4.12,
+   "moves_s": 0.461,
+   "first_in_s": 1.599,
+   "last_in_s": 2.238,
+   "entries": 2
+  },
+  {
+   "i": 28,
+   "cell": [
+    8,
+    0
+   ],
+   "x": 1345,
+   "y": 100,
+   "offset_deg": 1.196,
+   "jump_to": [
+    1333.5,
+    152.0
+   ],
+   "from_prev_pt": 1307.0,
+   "t_on": 596849.671283208,
+   "jump_s": 0.4004,
+   "press_s": 1.3301,
+   "refine_s": 0.9297,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1343.0,
+    100.0
+   ],
+   "miss_pt": -10.0,
+   "steady_pt": 7.61,
+   "moves_s": 0.536,
+   "first_in_s": 1.08,
+   "last_in_s": 1.08,
+   "entries": 1
+  },
+  {
+   "i": 29,
+   "cell": [
+    6,
+    2
+   ],
+   "x": 1013,
+   "y": 563,
+   "offset_deg": 1.715,
+   "jump_to": [
+    936.7,
+    565.8
+   ],
+   "from_prev_pt": 568.6,
+   "t_on": 596852.305241541,
+   "jump_s": 0.4105,
+   "press_s": 1.4827,
+   "refine_s": 1.0722,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1010.0,
+    573.0
+   ],
+   "miss_pt": -2.0,
+   "steady_pt": 0.7,
+   "moves_s": 0.87,
+   "first_in_s": 1.112,
+   "last_in_s": 1.112,
+   "entries": 1
+  },
+  {
+   "i": 30,
+   "cell": [
+    3,
+    0
+   ],
+   "x": 553,
+   "y": 213,
+   "offset_deg": 0.858,
+   "jump_to": [
+    562.3,
+    250.1
+   ],
+   "from_prev_pt": 581.8,
+   "t_on": 596855.14686825,
+   "jump_s": 0.4098,
+   "press_s": 1.2666,
+   "refine_s": 0.8568,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    555.0,
+    198.0
+   ],
+   "miss_pt": 3.0,
+   "steady_pt": 1.76,
+   "moves_s": 0.76,
+   "first_in_s": 0.868,
+   "last_in_s": null,
+   "entries": 1
+  },
+  {
+   "i": 31,
+   "cell": [
+    6,
+    3
+   ],
+   "x": 1019,
+   "y": 627,
+   "offset_deg": 0.492,
+   "jump_to": [
+    1033.5,
+    643.4
+   ],
+   "from_prev_pt": 631.9,
+   "t_on": 596857.794810291,
+   "jump_s": 0.4064,
+   "press_s": 1.3141,
+   "refine_s": 0.9077,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1025.0,
+    633.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 1.26,
+   "moves_s": 0.846,
+   "first_in_s": 0.952,
+   "last_in_s": 0.952,
+   "entries": 1
+  },
+  {
+   "i": 32,
+   "cell": [
+    7,
+    0
+   ],
+   "x": 1299,
+   "y": 120,
+   "offset_deg": 0.997,
+   "jump_to": [
+    1260.6,
+    142.3
+   ],
+   "from_prev_pt": 581.6,
+   "t_on": 596860.974375875,
+   "jump_s": 0.401,
+   "press_s": 1.8877,
+   "refine_s": 1.4867,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1294.0,
+    116.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 7.06,
+   "moves_s": 0.408,
+   "first_in_s": 0.878,
+   "last_in_s": 1.711,
+   "entries": 2
+  },
+  {
+   "i": 33,
+   "cell": [
+    7,
+    4
+   ],
+   "x": 1200,
+   "y": 922,
+   "offset_deg": 3.515,
+   "jump_to": [
+    1212.9,
+    766.1
+   ],
+   "from_prev_pt": 811.5,
+   "t_on": 596864.039391291,
+   "jump_s": 0.4006,
+   "press_s": 1.5546,
+   "refine_s": 1.154,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1197.0,
+    912.0
+   ],
+   "miss_pt": -2.0,
+   "steady_pt": 1.21,
+   "moves_s": 0.708,
+   "first_in_s": 1.285,
+   "last_in_s": 1.285,
+   "entries": 1
+  },
+  {
+   "i": 34,
+   "cell": [
+    6,
+    4
+   ],
+   "x": 1059,
+   "y": 959,
+   "offset_deg": 4.002,
+   "jump_to": [
+    881.0,
+    951.7
+   ],
+   "from_prev_pt": 145.8,
+   "t_on": 596867.347810666,
+   "jump_s": 0.4076,
+   "press_s": 1.6272,
+   "refine_s": 1.2196,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1048.0,
+    959.0
+   ],
+   "miss_pt": -1.0,
+   "steady_pt": 0.77,
+   "moves_s": 0.505,
+   "first_in_s": 1.295,
+   "last_in_s": 1.295,
+   "entries": 1
+  },
+  {
+   "i": 35,
+   "cell": [
+    8,
+    3
+   ],
+   "x": 1381,
+   "y": 726,
+   "offset_deg": 1.999,
+   "jump_to": [
+    1436.2,
+    656.2
+   ],
+   "from_prev_pt": 406.4,
+   "t_on": 596870.109598166,
+   "jump_s": 0.4096,
+   "press_s": 2.2488,
+   "refine_s": 1.8393,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1372.0,
+    735.0
+   ],
+   "miss_pt": -3.0,
+   "steady_pt": 11.95,
+   "moves_s": 0.865,
+   "first_in_s": 1.535,
+   "last_in_s": 2.068,
+   "entries": 2
+  },
+  {
+   "i": 36,
+   "cell": [
+    2,
+    1
+   ],
+   "x": 390,
+   "y": 253,
+   "offset_deg": 1.655,
+   "jump_to": [
+    347.7,
+    192.7
+   ],
+   "from_prev_pt": 1093.9,
+   "t_on": 596873.544327416,
+   "jump_s": 0.4038,
+   "press_s": 1.7854,
+   "refine_s": 1.3816,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    390.0,
+    261.0
+   ],
+   "miss_pt": -4.0,
+   "steady_pt": 7.65,
+   "moves_s": 0.833,
+   "first_in_s": 1.733,
+   "last_in_s": 1.733,
+   "entries": 1
+  },
+  {
+   "i": 37,
+   "cell": [
+    1,
+    1
+   ],
+   "x": 299,
+   "y": 272,
+   "offset_deg": 4.321,
+   "jump_to": [
+    278.3,
+    80.8
+   ],
+   "from_prev_pt": 91.7,
+   "t_on": 596876.847519583,
+   "jump_s": 0.4108,
+   "press_s": 2.4277,
+   "refine_s": 2.0169,
+   "rest_s": null,
+   "landed": false,
+   "trackpad": false,
+   "cursor": [
+    292.0,
+    258.0
+   ],
+   "miss_pt": 2.0,
+   "steady_pt": 2.29,
+   "moves_s": 0.699,
+   "first_in_s": 1.497,
+   "last_in_s": null,
+   "entries": 2
+  },
+  {
+   "i": 38,
+   "cell": [
+    7,
+    2
+   ],
+   "x": 1267,
+   "y": 548,
+   "offset_deg": 2.304,
+   "jump_to": [
+    1366.3,
+    573.6
+   ],
+   "from_prev_pt": 1017.2,
+   "t_on": 596880.869741041,
+   "jump_s": 0.4102,
+   "press_s": 1.7409,
+   "refine_s": 1.3308,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1267.0,
+    540.0
+   ],
+   "miss_pt": -4.0,
+   "steady_pt": 6.26,
+   "moves_s": 0.911,
+   "first_in_s": 1.447,
+   "last_in_s": 1.447,
+   "entries": 1
+  },
+  {
+   "i": 39,
+   "cell": [
+    1,
+    4
+   ],
+   "x": 239,
+   "y": 866,
+   "offset_deg": 1.291,
+   "jump_to": [
+    191.6,
+    833.5
+   ],
+   "from_prev_pt": 1078.5,
+   "t_on": 596884.294977791,
+   "jump_s": 0.4008,
+   "press_s": 2.0378,
+   "refine_s": 1.637,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    231.0,
+    858.0
+   ],
+   "miss_pt": -4.0,
+   "steady_pt": 2.55,
+   "moves_s": 0.716,
+   "first_in_s": 1.849,
+   "last_in_s": 1.849,
+   "entries": 1
+  },
+  {
+   "i": 40,
+   "cell": [
+    1,
+    3
+   ],
+   "x": 323,
+   "y": 608,
+   "offset_deg": 2.607,
+   "jump_to": [
+    438.9,
+    603.4
+   ],
+   "from_prev_pt": 266.4,
+   "t_on": 596888.096342125,
+   "jump_s": 0.4024,
+   "press_s": 2.6384,
+   "refine_s": 2.236,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    333.0,
+    619.0
+   ],
+   "miss_pt": -1.0,
+   "steady_pt": 0.6,
+   "moves_s": 0.825,
+   "first_in_s": 1.549,
+   "last_in_s": 2.452,
+   "entries": 2
+  },
+  {
+   "i": 41,
+   "cell": [
+    4,
+    1
+   ],
+   "x": 707,
+   "y": 259,
+   "offset_deg": 2.395,
+   "jump_to": [
+    769.4,
+    172.6
+   ],
+   "from_prev_pt": 519.1,
+   "t_on": 596891.76281725,
+   "jump_s": 0.4081,
+   "press_s": 1.876,
+   "refine_s": 1.4679,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    710.0,
+    253.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 4.38,
+   "moves_s": 0.921,
+   "first_in_s": 1.615,
+   "last_in_s": 1.615,
+   "entries": 1
+  },
+  {
+   "i": 42,
+   "cell": [
+    1,
+    2
+   ],
+   "x": 245,
+   "y": 602,
+   "offset_deg": 1.636,
+   "jump_to": [
+    296.5,
+    653.5
+   ],
+   "from_prev_pt": 581.4,
+   "t_on": 596895.401085625,
+   "jump_s": 0.4069,
+   "press_s": 1.711,
+   "refine_s": 1.3041,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    233.0,
+    607.0
+   ],
+   "miss_pt": 0.0,
+   "steady_pt": 8.99,
+   "moves_s": 0.821,
+   "first_in_s": 1.011,
+   "last_in_s": 1.612,
+   "entries": 2
+  },
+  {
+   "i": 43,
+   "cell": [
+    5,
+    3
+   ],
+   "x": 999,
+   "y": 713,
+   "offset_deg": 4.051,
+   "jump_to": [
+    1082.3,
+    872.9
+   ],
+   "from_prev_pt": 773.3,
+   "t_on": 596898.38463775,
+   "jump_s": 0.4021,
+   "press_s": 2.0918,
+   "refine_s": 1.6897,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    997.0,
+    721.0
+   ],
+   "miss_pt": -4.0,
+   "steady_pt": 9.11,
+   "moves_s": 0.428,
+   "first_in_s": 1.568,
+   "last_in_s": 1.868,
+   "entries": 2
+  },
+  {
+   "i": 44,
+   "cell": [
+    2,
+    4
+   ],
+   "x": 478,
+   "y": 794,
+   "offset_deg": 0.975,
+   "jump_to": [
+    435.6,
+    784.6
+   ],
+   "from_prev_pt": 524.1,
+   "t_on": 596902.231402041,
+   "jump_s": 0.4087,
+   "press_s": 1.6538,
+   "refine_s": 1.2451,
+   "rest_s": null,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    475.0,
+    805.0
+   ],
+   "miss_pt": -1.0,
+   "steady_pt": 5.56,
+   "moves_s": 0.849,
+   "first_in_s": 1.515,
+   "last_in_s": 1.515,
+   "entries": 1
+  }
+ ]
+}

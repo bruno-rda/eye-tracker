@@ -1,0 +1,1458 @@
+{
+ "session": "20261116-143400",
+ "kind": "task",
+ "distance_cm": 51.0,
+ "pt_per_deg": 44.51,
+ "screen_pt": [
+  1512.0,
+  982.0
+ ],
+ "window": [
+  0,
+  37,
+  1512,
+  945
+ ],
+ "camera": {
+  "format": [
+   1920,
+   1080
+  ],
+  "frame_duration_s": [
+   0.03333333333333333,
+   0.03333333333333333
+  ],
+  "center_stage_active": false,
+  "portrait_active": false,
+  "studio_light_active": false,
+  "drops": 0
+ },
+ "params": {
+  "feature": "tip",
+  "g_lo": 1.5,
+  "g_hi": 6.0,
+  "v_lo": 8.0,
+  "v_hi": 60.0,
+  "y_scale": 1.0,
+  "mincut": 2.0,
+  "beta": 0.1,
+  "rest": true,
+  "rest_min_ms": 300.0,
+  "rest_speed": 12.0,
+  "rest_frames": 3,
+  "jump_ms": 400.0,
+  "offset": "req"
+ },
+ "summary": {
+  "attempts": 45,
+  "landed_within_2s": {
+   "n": 45,
+   "landed": 13,
+   "rate": 0.289,
+   "ci95": [
+    0.177,
+    0.434
+   ]
+  },
+  "landed_any_time": {
+   "n": 45,
+   "landed": 44,
+   "rate": 0.978,
+   "ci95": [
+    0.884,
+    0.996
+   ]
+  },
+  "no_press_in_5s": 1,
+  "pressed_before_jump": 0,
+  "trackpad": 0,
+  "press_s_p50_p90": [
+   2.61,
+   3.9
+  ],
+  "refine_s_p50_p90": [
+   2.21,
+   3.5
+  ],
+  "rest_s_p50_p90": [
+   0.28,
+   0.39
+  ],
+  "pressed_before_rest": 0,
+  "landed_by_press_s": {
+   "1": 0.0,
+   "1.25": 0.0,
+   "1.5": 0.022,
+   "1.75": 0.089,
+   "2": 0.289,
+   "2.5": 0.444,
+   "3": 0.711,
+   "5": 0.978
+  },
+  "landed_by_refine_s": {
+   "0.6": 0.0,
+   "0.8": 0.0,
+   "1": 0.0,
+   "1.2": 0.022,
+   "1.4": 0.133,
+   "1.6": 0.289,
+   "1.8": 0.333,
+   "2": 0.444
+  },
+  "by_offset_deg": {
+   "0-0.75": {
+    "n": 8,
+    "landed": 6,
+    "rate": 0.75,
+    "ci95": [
+     0.409,
+     0.929
+    ],
+    "press_s_p50": 1.97
+   },
+   "0.75-1.25": {
+    "n": 9,
+    "landed": 2,
+    "rate": 0.222,
+    "ci95": [
+     0.063,
+     0.547
+    ],
+    "press_s_p50": 2.8
+   },
+   "1.25-2": {
+    "n": 15,
+    "landed": 4,
+    "rate": 0.267,
+    "ci95": [
+     0.109,
+     0.52
+    ],
+    "press_s_p50": 2.58
+   },
+   "2-3": {
+    "n": 6,
+    "landed": 1,
+    "rate": 0.167,
+    "ci95": [
+     0.03,
+     0.564
+    ],
+    "press_s_p50": 2.35
+   },
+   "3-99": {
+    "n": 7,
+    "landed": 0,
+    "rate": 0.0,
+    "ci95": [
+     0.0,
+     0.354
+    ],
+    "press_s_p50": 3.19
+   }
+  },
+  "by_distance_from_previous_pt": {
+   "0-300": {
+    "n": 8,
+    "landed": 2,
+    "rate": 0.25,
+    "ci95": [
+     0.071,
+     0.591
+    ],
+    "press_s_p50": 2.94
+   },
+   "300-700": {
+    "n": 16,
+    "landed": 6,
+    "rate": 0.375,
+    "ci95": [
+     0.185,
+     0.614
+    ],
+    "press_s_p50": 2.35
+   },
+   "700-9999": {
+    "n": 21,
+    "landed": 5,
+    "rate": 0.238,
+    "ci95": [
+     0.106,
+     0.451
+    ],
+    "press_s_p50": 2.65
+   }
+  },
+  "miss_beyond_edge_pt_p50_p90": [
+   null,
+   null
+  ],
+  "cursor_sd_before_press_pt_p50_p90": [
+   2.1,
+   4.78
+  ],
+  "frame_to_cursor_ms_p50_p95": [
+   64.47,
+   70.01
+  ]
+ },
+ "attempts": [
+  {
+   "i": 0,
+   "cell": [
+    4,
+    4
+   ],
+   "x": 715,
+   "y": 934,
+   "offset_deg": 3.418,
+   "jump_to": [
+    568.2,
+    974.1
+   ],
+   "from_prev_pt": 924.5,
+   "t_on": 590974.061644958,
+   "jump_s": 0.4004,
+   "press_s": 2.6526,
+   "refine_s": 2.2522,
+   "rest_s": 0.2669,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    715.0,
+    938.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 2.38
+  },
+  {
+   "i": 1,
+   "cell": [
+    2,
+    1
+   ],
+   "x": 417,
+   "y": 403,
+   "offset_deg": 0.589,
+   "jump_to": [
+    437.6,
+    419.2
+   ],
+   "from_prev_pt": 612.4,
+   "t_on": 590978.146846458,
+   "jump_s": 0.4003,
+   "press_s": 1.6809,
+   "refine_s": 1.2806,
+   "rest_s": 0.4163,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    421.0,
+    403.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 5.11
+  },
+  {
+   "i": 2,
+   "cell": [
+    2,
+    2
+   ],
+   "x": 499,
+   "y": 505,
+   "offset_deg": 1.243,
+   "jump_to": [
+    477.8,
+    453.9
+   ],
+   "from_prev_pt": 128.4,
+   "t_on": 590980.89326875,
+   "jump_s": 0.4088,
+   "press_s": 1.9242,
+   "refine_s": 1.5154,
+   "rest_s": 0.296,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    498.0,
+    504.0
+   ],
+   "miss_pt": -11.0,
+   "steady_pt": 1.52
+  },
+  {
+   "i": 3,
+   "cell": [
+    3,
+    4
+   ],
+   "x": 610,
+   "y": 906,
+   "offset_deg": 1.669,
+   "jump_to": [
+    659.2,
+    850.3
+   ],
+   "from_prev_pt": 417.3,
+   "t_on": 590984.701295708,
+   "jump_s": 0.4092,
+   "press_s": 2.3614,
+   "refine_s": 1.9521,
+   "rest_s": 0.3609,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    613.0,
+    913.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 4.57
+  },
+  {
+   "i": 4,
+   "cell": [
+    1,
+    3
+   ],
+   "x": 308,
+   "y": 741,
+   "offset_deg": 1.887,
+   "jump_to": [
+    232.9,
+    703.4
+   ],
+   "from_prev_pt": 350.2,
+   "t_on": 590988.450942166,
+   "jump_s": 0.4108,
+   "press_s": 2.5773,
+   "refine_s": 2.1665,
+   "rest_s": 0.2724,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    302.0,
+    739.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 6.78
+  },
+  {
+   "i": 5,
+   "cell": [
+    1,
+    1
+   ],
+   "x": 291,
+   "y": 331,
+   "offset_deg": 1.923,
+   "jump_to": [
+    324.8,
+    409.7
+   ],
+   "from_prev_pt": 408.1,
+   "t_on": 590992.952074958,
+   "jump_s": 0.4053,
+   "press_s": 4.2817,
+   "refine_s": 3.8763,
+   "rest_s": 1.5068,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    289.0,
+    335.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 4.7
+  },
+  {
+   "i": 6,
+   "cell": [
+    1,
+    2
+   ],
+   "x": 238,
+   "y": 424,
+   "offset_deg": 1.951,
+   "jump_to": [
+    170.9,
+    368.9
+   ],
+   "from_prev_pt": 102.6,
+   "t_on": 590998.7622165,
+   "jump_s": 0.4094,
+   "press_s": 3.7896,
+   "refine_s": 3.3802,
+   "rest_s": 0.2937,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    234.0,
+    421.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 1.8
+  },
+  {
+   "i": 7,
+   "cell": [
+    1,
+    0
+   ],
+   "x": 173,
+   "y": 210,
+   "offset_deg": 1.137,
+   "jump_to": [
+    209.6,
+    175.0
+   ],
+   "from_prev_pt": 219.6,
+   "t_on": 591004.094268666,
+   "jump_s": 0.4044,
+   "press_s": 2.7961,
+   "refine_s": 2.3917,
+   "rest_s": 0.2674,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    172.0,
+    206.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 2.82
+  },
+  {
+   "i": 8,
+   "cell": [
+    6,
+    1
+   ],
+   "x": 1092,
+   "y": 321,
+   "offset_deg": 3.286,
+   "jump_to": [
+    1018.0,
+    194.8
+   ],
+   "from_prev_pt": 927.2,
+   "t_on": 591008.624791541,
+   "jump_s": 0.4014,
+   "press_s": 4.0475,
+   "refine_s": 3.6462,
+   "rest_s": 1.6146,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1087.0,
+    321.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 2.53
+  },
+  {
+   "i": 9,
+   "cell": [
+    0,
+    0
+   ],
+   "x": 29,
+   "y": 123,
+   "offset_deg": 1.174,
+   "jump_to": [
+    6.0,
+    169.9
+   ],
+   "from_prev_pt": 1076.4,
+   "t_on": 591013.94553775,
+   "jump_s": 0.4105,
+   "press_s": 3.2135,
+   "refine_s": 2.803,
+   "rest_s": 0.2805,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    20.0,
+    128.0
+   ],
+   "miss_pt": -3.0,
+   "steady_pt": 0.6
+  },
+  {
+   "i": 10,
+   "cell": [
+    7,
+    3
+   ],
+   "x": 1272,
+   "y": 694,
+   "offset_deg": 0.53,
+   "jump_to": [
+    1252.2,
+    681.3
+   ],
+   "from_prev_pt": 1374.0,
+   "t_on": 591018.4428165,
+   "jump_s": 0.4078,
+   "press_s": 1.9684,
+   "refine_s": 1.5606,
+   "rest_s": 0.2866,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1278.0,
+    698.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 2.52
+  },
+  {
+   "i": 11,
+   "cell": [
+    7,
+    2
+   ],
+   "x": 1343,
+   "y": 468,
+   "offset_deg": 4.928,
+   "jump_to": [
+    1241.1,
+    273.8
+   ],
+   "from_prev_pt": 239.0,
+   "t_on": 591022.288356875,
+   "jump_s": 0.4076,
+   "press_s": 3.0769,
+   "refine_s": 2.6693,
+   "rest_s": 0.2735,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1344.0,
+    465.0
+   ],
+   "miss_pt": -9.0,
+   "steady_pt": 0.99
+  },
+  {
+   "i": 12,
+   "cell": [
+    5,
+    1
+   ],
+   "x": 993,
+   "y": 335,
+   "offset_deg": 1.127,
+   "jump_to": [
+    1006.4,
+    286.7
+   ],
+   "from_prev_pt": 374.3,
+   "t_on": 591026.46806775,
+   "jump_s": 0.4109,
+   "press_s": 1.7696,
+   "refine_s": 1.3587,
+   "rest_s": 0.2954,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    989.0,
+    331.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 2.96
+  },
+  {
+   "i": 13,
+   "cell": [
+    4,
+    2
+   ],
+   "x": 785,
+   "y": 497,
+   "offset_deg": 1.608,
+   "jump_to": [
+    782.5,
+    568.5
+   ],
+   "from_prev_pt": 263.0,
+   "t_on": 591029.274590708,
+   "jump_s": 0.4057,
+   "press_s": 1.7789,
+   "refine_s": 1.3732,
+   "rest_s": 0.2913,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    779.0,
+    497.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 0.82
+  },
+  {
+   "i": 14,
+   "cell": [
+    5,
+    2
+   ],
+   "x": 918,
+   "y": 596,
+   "offset_deg": 1.172,
+   "jump_to": [
+    890.2,
+    640.1
+   ],
+   "from_prev_pt": 170.7,
+   "t_on": 591032.102800541,
+   "jump_s": 0.4106,
+   "press_s": 3.4515,
+   "refine_s": 3.0409,
+   "rest_s": 0.2951,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    916.0,
+    597.0
+   ],
+   "miss_pt": -10.0,
+   "steady_pt": 0.3
+  },
+  {
+   "i": 15,
+   "cell": [
+    7,
+    1
+   ],
+   "x": 1296,
+   "y": 287,
+   "offset_deg": 1.541,
+   "jump_to": [
+    1231.6,
+    310.5
+   ],
+   "from_prev_pt": 490.4,
+   "t_on": 591036.885376208,
+   "jump_s": 0.4008,
+   "press_s": 1.9943,
+   "refine_s": 1.5935,
+   "rest_s": 0.2844,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1292.0,
+    292.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 0.66
+  },
+  {
+   "i": 16,
+   "cell": [
+    4,
+    0
+   ],
+   "x": 774,
+   "y": 104,
+   "offset_deg": 1.8,
+   "jump_to": [
+    717.5,
+    160.8
+   ],
+   "from_prev_pt": 551.1,
+   "t_on": 591040.855706458,
+   "jump_s": 0.4078,
+   "press_s": 2.3471,
+   "refine_s": 1.9393,
+   "rest_s": 0.2739,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    771.0,
+    115.0
+   ],
+   "miss_pt": -1.0,
+   "steady_pt": 3.92
+  },
+  {
+   "i": 17,
+   "cell": [
+    4,
+    1
+   ],
+   "x": 768,
+   "y": 265,
+   "offset_deg": 0.529,
+   "jump_to": [
+    787.6,
+    278.0
+   ],
+   "from_prev_pt": 150.0,
+   "t_on": 591044.581047583,
+   "jump_s": 0.4094,
+   "press_s": 2.3373,
+   "refine_s": 1.9279,
+   "rest_s": 0.2848,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    770.0,
+    260.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 2.99
+  },
+  {
+   "i": 18,
+   "cell": [
+    1,
+    4
+   ],
+   "x": 218,
+   "y": 835,
+   "offset_deg": 0.55,
+   "jump_to": [
+    193.6,
+    836.1
+   ],
+   "from_prev_pt": 797.1,
+   "t_on": 591048.291344958,
+   "jump_s": 0.4095,
+   "press_s": 1.9654,
+   "refine_s": 1.5559,
+   "rest_s": 0.2763,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    216.0,
+    834.0
+   ],
+   "miss_pt": -10.0,
+   "steady_pt": 2.11
+  },
+  {
+   "i": 19,
+   "cell": [
+    8,
+    2
+   ],
+   "x": 1481,
+   "y": 552,
+   "offset_deg": 1.511,
+   "jump_to": [
+    1446.0,
+    494.6
+   ],
+   "from_prev_pt": 1296.1,
+   "t_on": 591051.688711916,
+   "jump_s": 0.4081,
+   "press_s": 2.6376,
+   "refine_s": 2.2295,
+   "rest_s": 0.2823,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1481.0,
+    555.0
+   ],
+   "miss_pt": -9.0,
+   "steady_pt": 1.52
+  },
+  {
+   "i": 20,
+   "cell": [
+    2,
+    3
+   ],
+   "x": 362,
+   "y": 700,
+   "offset_deg": 2.113,
+   "jump_to": [
+    270.3,
+    720.8
+   ],
+   "from_prev_pt": 1128.4,
+   "t_on": 591056.085298416,
+   "jump_s": 0.4042,
+   "press_s": 2.8489,
+   "refine_s": 2.4447,
+   "rest_s": 0.2877,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    368.0,
+    704.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 4.06
+  },
+  {
+   "i": 21,
+   "cell": [
+    6,
+    2
+   ],
+   "x": 1053,
+   "y": 535,
+   "offset_deg": 1.686,
+   "jump_to": [
+    1128.0,
+    536.3
+   ],
+   "from_prev_pt": 705.5,
+   "t_on": 591060.033080166,
+   "jump_s": 0.411,
+   "press_s": 2.0215,
+   "refine_s": 1.6106,
+   "rest_s": 0.3201,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1056.0,
+    532.0
+   ],
+   "miss_pt": -9.0,
+   "steady_pt": 1.18
+  },
+  {
+   "i": 22,
+   "cell": [
+    6,
+    0
+   ],
+   "x": 1021,
+   "y": 141,
+   "offset_deg": 2.431,
+   "jump_to": [
+    1058.4,
+    242.6
+   ],
+   "from_prev_pt": 392.6,
+   "t_on": 591063.133189916,
+   "jump_s": 0.4007,
+   "press_s": null,
+   "refine_s": null,
+   "rest_s": 3.8743,
+   "landed": false,
+   "trackpad": false,
+   "cursor": null,
+   "miss_pt": null,
+   "steady_pt": null
+  },
+  {
+   "i": 23,
+   "cell": [
+    6,
+    4
+   ],
+   "x": 1104,
+   "y": 883,
+   "offset_deg": 5.356,
+   "jump_to": [
+    870.0,
+    928.6
+   ],
+   "from_prev_pt": 354.3,
+   "t_on": 591069.737628416,
+   "jump_s": 0.408,
+   "press_s": 3.0948,
+   "refine_s": 2.6869,
+   "rest_s": 0.2667,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1103.0,
+    885.0
+   ],
+   "miss_pt": -10.0,
+   "steady_pt": 1.8
+  },
+  {
+   "i": 24,
+   "cell": [
+    7,
+    0
+   ],
+   "x": 1240,
+   "y": 118,
+   "offset_deg": 1.136,
+   "jump_to": [
+    1202.3,
+    84.3
+   ],
+   "from_prev_pt": 779.1,
+   "t_on": 591074.265381583,
+   "jump_s": 0.4023,
+   "press_s": 3.9723,
+   "refine_s": 3.57,
+   "rest_s": 0.2722,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1242.0,
+    113.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 2.33
+  },
+  {
+   "i": 25,
+   "cell": [
+    3,
+    3
+   ],
+   "x": 591,
+   "y": 665,
+   "offset_deg": 5.709,
+   "jump_to": [
+    812.2,
+    790.1
+   ],
+   "from_prev_pt": 853.5,
+   "t_on": 591079.361386083,
+   "jump_s": 0.4017,
+   "press_s": 3.9481,
+   "refine_s": 3.5464,
+   "rest_s": 0.2815,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    580.0,
+    674.0
+   ],
+   "miss_pt": -1.0,
+   "steady_pt": 6.46
+  },
+  {
+   "i": 26,
+   "cell": [
+    5,
+    4
+   ],
+   "x": 881,
+   "y": 868,
+   "offset_deg": 1.474,
+   "jump_to": [
+    911.8,
+    810.1
+   ],
+   "from_prev_pt": 358.1,
+   "t_on": 591085.003232125,
+   "jump_s": 0.4104,
+   "press_s": 2.7523,
+   "refine_s": 2.3419,
+   "rest_s": 0.298,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    880.0,
+    868.0
+   ],
+   "miss_pt": -11.0,
+   "steady_pt": 1.96
+  },
+  {
+   "i": 27,
+   "cell": [
+    2,
+    0
+   ],
+   "x": 411,
+   "y": 56,
+   "offset_deg": 0.549,
+   "jump_to": [
+    391.7,
+    40.9
+   ],
+   "from_prev_pt": 937.7,
+   "t_on": 591089.117172291,
+   "jump_s": 0.4032,
+   "press_s": 1.876,
+   "refine_s": 1.4729,
+   "rest_s": 0.2881,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    412.0,
+    55.0
+   ],
+   "miss_pt": -11.0,
+   "steady_pt": 3.78
+  },
+  {
+   "i": 28,
+   "cell": [
+    7,
+    4
+   ],
+   "x": 1210,
+   "y": 845,
+   "offset_deg": 1.525,
+   "jump_to": [
+    1248.4,
+    789.0
+   ],
+   "from_prev_pt": 1122.9,
+   "t_on": 591092.930075041,
+   "jump_s": 0.4084,
+   "press_s": 2.9924,
+   "refine_s": 2.584,
+   "rest_s": 0.2777,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1201.0,
+    842.0
+   ],
+   "miss_pt": -3.0,
+   "steady_pt": 4.81
+  },
+  {
+   "i": 29,
+   "cell": [
+    2,
+    4
+   ],
+   "x": 424,
+   "y": 878,
+   "offset_deg": 1.933,
+   "jump_to": [
+    449.5,
+    960.1
+   ],
+   "from_prev_pt": 777.8,
+   "t_on": 591097.56806225,
+   "jump_s": 0.4007,
+   "press_s": 1.6119,
+   "refine_s": 1.2113,
+   "rest_s": 0.2748,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    428.0,
+    882.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 1.2
+  },
+  {
+   "i": 30,
+   "cell": [
+    8,
+    0
+   ],
+   "x": 1470,
+   "y": 109,
+   "offset_deg": 1.006,
+   "jump_to": [
+    1435.0,
+    81.1
+   ],
+   "from_prev_pt": 1297.4,
+   "t_on": 591100.490375166,
+   "jump_s": 0.4002,
+   "press_s": 2.7113,
+   "refine_s": 2.3111,
+   "rest_s": 0.2867,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1471.0,
+    108.0
+   ],
+   "miss_pt": -11.0,
+   "steady_pt": 2.31
+  },
+  {
+   "i": 31,
+   "cell": [
+    8,
+    1
+   ],
+   "x": 1348,
+   "y": 287,
+   "offset_deg": 2.484,
+   "jump_to": [
+    1457.7,
+    273.3
+   ],
+   "from_prev_pt": 217.2,
+   "t_on": 591105.158533,
+   "jump_s": 0.4083,
+   "press_s": 3.5304,
+   "refine_s": 3.1221,
+   "rest_s": 0.2771,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1349.0,
+    280.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 2.04
+  },
+  {
+   "i": 32,
+   "cell": [
+    0,
+    4
+   ],
+   "x": 144,
+   "y": 815,
+   "offset_deg": 3.347,
+   "jump_to": [
+    57.5,
+    936.3
+   ],
+   "from_prev_pt": 1318.4,
+   "t_on": 591110.326575375,
+   "jump_s": 0.4099,
+   "press_s": 4.8571,
+   "refine_s": 4.4472,
+   "rest_s": 0.2782,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    137.0,
+    817.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 2.72
+  },
+  {
+   "i": 33,
+   "cell": [
+    6,
+    3
+   ],
+   "x": 1031,
+   "y": 619,
+   "offset_deg": 2.219,
+   "jump_to": [
+    1016.0,
+    716.6
+   ],
+   "from_prev_pt": 915.7,
+   "t_on": 591116.9360845,
+   "jump_s": 0.4077,
+   "press_s": 2.3455,
+   "refine_s": 1.9378,
+   "rest_s": 0.2687,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1029.0,
+    622.0
+   ],
+   "miss_pt": -9.0,
+   "steady_pt": 1.79
+  },
+  {
+   "i": 34,
+   "cell": [
+    8,
+    4
+   ],
+   "x": 1411,
+   "y": 905,
+   "offset_deg": 2.455,
+   "jump_to": [
+    1348.3,
+    815.5
+   ],
+   "from_prev_pt": 475.4,
+   "t_on": 591121.227820541,
+   "jump_s": 0.4094,
+   "press_s": 1.485,
+   "refine_s": 1.0756,
+   "rest_s": 0.2808,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1406.0,
+    907.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 1.51
+  },
+  {
+   "i": 35,
+   "cell": [
+    3,
+    1
+   ],
+   "x": 564,
+   "y": 382,
+   "offset_deg": 2.086,
+   "jump_to": [
+    645.8,
+    425.9
+   ],
+   "from_prev_pt": 992.3,
+   "t_on": 591123.999668583,
+   "jump_s": 0.4043,
+   "press_s": 2.0328,
+   "refine_s": 1.6285,
+   "rest_s": 0.2811,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    562.0,
+    386.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 5.07
+  },
+  {
+   "i": 36,
+   "cell": [
+    0,
+    2
+   ],
+   "x": 44,
+   "y": 456,
+   "offset_deg": 1.515,
+   "jump_to": [
+    79.1,
+    398.4
+   ],
+   "from_prev_pt": 522.7,
+   "t_on": 591127.062716166,
+   "jump_s": 0.403,
+   "press_s": 2.8306,
+   "refine_s": 2.4276,
+   "rest_s": 0.2827,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    41.0,
+    452.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 1.75
+  },
+  {
+   "i": 37,
+   "cell": [
+    5,
+    3
+   ],
+   "x": 997,
+   "y": 611,
+   "offset_deg": 1.976,
+   "jump_to": [
+    1000.4,
+    698.9
+   ],
+   "from_prev_pt": 969.1,
+   "t_on": 591131.521456458,
+   "jump_s": 0.4065,
+   "press_s": 2.7256,
+   "refine_s": 2.3191,
+   "rest_s": 0.286,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    996.0,
+    617.0
+   ],
+   "miss_pt": -6.0,
+   "steady_pt": 3.3
+  },
+  {
+   "i": 38,
+   "cell": [
+    5,
+    0
+   ],
+   "x": 963,
+   "y": 139,
+   "offset_deg": 0.709,
+   "jump_to": [
+    943.9,
+    113.9
+   ],
+   "from_prev_pt": 479.1,
+   "t_on": 591135.484467833,
+   "jump_s": 0.4084,
+   "press_s": 2.3359,
+   "refine_s": 1.9276,
+   "rest_s": 0.295,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    959.0,
+    134.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 1.61
+  },
+  {
+   "i": 39,
+   "cell": [
+    3,
+    0
+   ],
+   "x": 509,
+   "y": 109,
+   "offset_deg": 0.627,
+   "jump_to": [
+    526.6,
+    87.3
+   ],
+   "from_prev_pt": 450.7,
+   "t_on": 591138.894448541,
+   "jump_s": 0.4074,
+   "press_s": 1.9655,
+   "refine_s": 1.5581,
+   "rest_s": 0.2862,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    513.0,
+    107.0
+   ],
+   "miss_pt": -8.0,
+   "steady_pt": 1.29
+  },
+  {
+   "i": 40,
+   "cell": [
+    0,
+    3
+   ],
+   "x": 158,
+   "y": 771,
+   "offset_deg": 1.711,
+   "jump_to": [
+    230.2,
+    795.1
+   ],
+   "from_prev_pt": 752.9,
+   "t_on": 591142.694285041,
+   "jump_s": 0.4099,
+   "press_s": 1.7291,
+   "refine_s": 1.3192,
+   "rest_s": 0.2846,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    155.0,
+    769.0
+   ],
+   "miss_pt": -9.0,
+   "steady_pt": 1.7
+  },
+  {
+   "i": 41,
+   "cell": [
+    3,
+    2
+   ],
+   "x": 635,
+   "y": 465,
+   "offset_deg": 0.643,
+   "jump_to": [
+    618.0,
+    488.0
+   ],
+   "from_prev_pt": 568.2,
+   "t_on": 591145.578134708,
+   "jump_s": 0.4029,
+   "press_s": 1.9078,
+   "refine_s": 1.5049,
+   "rest_s": 0.2736,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    630.0,
+    470.0
+   ],
+   "miss_pt": -7.0,
+   "steady_pt": 2.09
+  },
+  {
+   "i": 42,
+   "cell": [
+    8,
+    3
+   ],
+   "x": 1457,
+   "y": 664,
+   "offset_deg": 1.064,
+   "jump_to": [
+    1409.6,
+    663.4
+   ],
+   "from_prev_pt": 849.4,
+   "t_on": 591148.98428575,
+   "jump_s": 0.4003,
+   "press_s": 2.8973,
+   "refine_s": 2.4971,
+   "rest_s": 0.7666,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    1455.0,
+    663.0
+   ],
+   "miss_pt": -10.0,
+   "steady_pt": 3.01
+  },
+  {
+   "i": 43,
+   "cell": [
+    4,
+    3
+   ],
+   "x": 822,
+   "y": 767,
+   "offset_deg": 3.052,
+   "jump_to": [
+    914.9,
+    667.9
+   ],
+   "from_prev_pt": 641.5,
+   "t_on": 591153.473720833,
+   "jump_s": 0.4097,
+   "press_s": 3.1858,
+   "refine_s": 2.776,
+   "rest_s": 0.2781,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    822.0,
+    760.0
+   ],
+   "miss_pt": -5.0,
+   "steady_pt": 0.72
+  },
+  {
+   "i": 44,
+   "cell": [
+    0,
+    1
+   ],
+   "x": 58,
+   "y": 318,
+   "offset_deg": 1.137,
+   "jump_to": [
+    8.4,
+    327.9
+   ],
+   "from_prev_pt": 882.6,
+   "t_on": 591157.776255375,
+   "jump_s": 0.4006,
+   "press_s": 2.5849,
+   "refine_s": 2.1844,
+   "rest_s": 0.2806,
+   "landed": true,
+   "trackpad": false,
+   "cursor": [
+    54.0,
+    310.0
+   ],
+   "miss_pt": -4.0,
+   "steady_pt": 1.25
+  }
+ ]
+}

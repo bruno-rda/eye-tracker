@@ -1,0 +1,141 @@
+{
+ "session": "20261116-151054",
+ "kind": "hold",
+ "distance_cm": 51.0,
+ "pt_per_deg": 44.51,
+ "screen_pt": [
+  1512.0,
+  982.0
+ ],
+ "window": [
+  0,
+  37,
+  1512,
+  945
+ ],
+ "camera": {
+  "format": [
+   1920,
+   1080
+  ],
+  "frame_duration_s": [
+   0.03333333333333333,
+   0.03333333333333333
+  ],
+  "center_stage_active": false,
+  "portrait_active": false,
+  "studio_light_active": false,
+  "drops": 0
+ },
+ "params": {
+  "feature": "rigid",
+  "g_lo": 1.5,
+  "g_hi": 6.0,
+  "v_lo": 8.0,
+  "v_hi": 60.0,
+  "y_scale": 1.0,
+  "mincut": 3.125,
+  "beta": 0.1,
+  "rest": true,
+  "rest_min_ms": 300.0,
+  "rest_speed": 12.0,
+  "rest_frames": 3,
+  "jump_ms": 400.0,
+  "offset": "0"
+ },
+ "phases": {
+  "still": {
+   "frames": 299,
+   "feature_range_px": {
+    "tip": 5.23,
+    "bridge": 3.15,
+    "eyes": 2.73,
+    "rigid": 2.95
+   },
+   "cursor": {
+    "tip": {
+     "sd_pt": 2.39,
+     "p95_pt": 6.37,
+     "end_pt": 5.94
+    },
+    "bridge": {
+     "sd_pt": 1.5,
+     "p95_pt": 3.76,
+     "end_pt": 3.25
+    },
+    "eyes": {
+     "sd_pt": 1.88,
+     "p95_pt": 5.24,
+     "end_pt": 3.13
+    },
+    "rigid": {
+     "sd_pt": 1.05,
+     "p95_pt": 3.54,
+     "end_pt": 1.97
+    }
+   }
+  },
+  "near": {
+   "frames": 300,
+   "feature_range_px": {
+    "tip": 38.9,
+    "bridge": 30.32,
+    "eyes": 25.24,
+    "rigid": 28.24
+   },
+   "cursor": {
+    "tip": {
+     "sd_pt": 70.03,
+     "p95_pt": 151.85,
+     "end_pt": 138.82
+    },
+    "bridge": {
+     "sd_pt": 43.59,
+     "p95_pt": 95.33,
+     "end_pt": 86.46
+    },
+    "eyes": {
+     "sd_pt": 28.89,
+     "p95_pt": 65.08,
+     "end_pt": 56.88
+    },
+    "rigid": {
+     "sd_pt": 37.26,
+     "p95_pt": 82.49,
+     "end_pt": 73.53
+    }
+   }
+  },
+  "far": {
+   "frames": 299,
+   "feature_range_px": {
+    "tip": 83.06,
+    "bridge": 68.45,
+    "eyes": 55.12,
+    "rigid": 61.96
+   },
+   "cursor": {
+    "tip": {
+     "sd_pt": 85.72,
+     "p95_pt": 256.44,
+     "end_pt": 230.16
+    },
+    "bridge": {
+     "sd_pt": 64.34,
+     "p95_pt": 196.12,
+     "end_pt": 186.31
+    },
+    "eyes": {
+     "sd_pt": 47.68,
+     "p95_pt": 156.01,
+     "end_pt": 116.1
+    },
+    "rigid": {
+     "sd_pt": 56.03,
+     "p95_pt": 178.29,
+     "end_pt": 146.02
+    }
+   }
+  }
+ }
+}
